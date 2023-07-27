@@ -28,6 +28,7 @@
                         'banner2-bg': "url('./images/banner2.png')",
                         'banner3-bg': "url('./images/banner3.png')",
                         'banner4-bg': "url('./images/banner4.png')",
+                        'team-bg': "url('./images/team.png')",
                     }
                 }
             }
@@ -73,7 +74,7 @@
             </div>
         </nav>
         <!-- Slider or Carousel -->
-        <div class="carousel w-full my-9 rounded-lg lg:h-[550px] bg-bike-primary-bg">
+        <div class="carousel w-full my-9 rounded-lg lg:h-[550px]">
             <!-- Slide 1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="hero min-h-[calc(100vh-66px)] bg-banner1-bg">
@@ -155,7 +156,207 @@
     <!-- Header ends here -->
 
     <!-- Main starts here -->
-    <main class="container mx-auto"></main>
+    <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-5">
+        <!-- Deal Section -->
+        <section class="text-center my-20">
+            <div class="flex justify-between items-center">
+                <div class="text-left">
+                    <h3 class="text-3xl font-extrabold mb-5">Deal of the day</h3>
+                    <p class="lg:max-w-3xl text-sm font-medium mb-10">Contrary to popular belief, is not simply random
+                        text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000
+                        years old.</p>
+                </div>
+                <div class="grid grid-flow-col gap-3 text-center auto-cols-max">
+                    <div class="flex flex-col items-center lg:w-9">
+                        <span class="countdown text-3xl font-extrabold items-center ml-28">
+                            <span style="--value:29;"></span> <i
+                                class="fa-solid fa-ellipsis-vertical text-base h-9 pt-2 ml-6"></i>
+                        </span>
+                        <p class="text-xs font-medium ml-20">Days</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="countdown text-3xl font-extrabold items-center ml-20">
+                            <span style="--value:15;"></span> <i
+                                class="fa-solid fa-ellipsis-vertical text-base h-9 pt-2 ml-5"></i>
+                        </span>
+                        <p class="text-xs font-medium ml-14">Hours</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="countdown text-3xl font-extrabold items-center ml-1">
+                            <span style="--value:25;"></span> <i
+                                class="fa-solid fa-ellipsis-vertical text-base h-9 pt-2 ml-4"></i>
+                        </span>
+                        <p class="text-xs font-medium mr-5">Minutes</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="countdown text-3xl font-extrabold pt-1">
+                            <span style="--value:08;"></span>
+                        </span>
+                        <p class="text-xs font-medium pt-[1.5px]">Seconds</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Deal fruits card container -->
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <!-- First card -->
+                <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                    <figure><img src="./images/fruit6.png" alt="Fruit 6" /></figure>
+                    <div class="card-body justify-center">
+                        <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                        <hr>
+                        <p class="text-sm font-medium my-1">Apples</p>
+                        <p class="text-[#F85559] my-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                    </div>
+                </div>
+                <!-- Second card -->
+                <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                    <figure><img src="./images/fruit7.png" alt="Fruit 7" /></figure>
+                    <div class="card-body justify-center">
+                        <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                        <hr>
+                        <p class="text-sm font-medium my-1">Orange</p>
+                        <p class="text-[#F85559] my-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                    </div>
+                </div>
+                <!-- Third card -->
+                <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                    <figure><img src="./images/fruit8.png" alt="Fruit 8" /></figure>
+                    <div class="card-body justify-center">
+                        <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                        <hr>
+                        <p class="text-sm font-medium my-1">Red Dragon</p>
+                        <p class="text-[#F85559] my-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                    </div>
+                </div>
+                <!-- Fourth card -->
+                <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                    <figure><img src="./images/fruit9.png" alt="Fruit 9" /></figure>
+                    <div class="card-body justify-center">
+                        <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                        <hr>
+                        <p class="text-sm font-medium my-1">Banana</p>
+                        <p class="text-[#F85559] my-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn bg-color-primary text-white border-none capitalize my-9">Shop All</button>
+        </section>
+        <!-- Team section -->
+        <section class="text-center my-20">
+            <div class="hero min-h-[calc(100vh-66px)] bg-team-bg">
+                <div class="hero-overlay bg-black bg-opacity-50"></div>
+                <div class="hero-content text-center text-neutral-content flex flex-col">
+                    <div class="max-w-md mt-32">
+                        <h1 class="mb-5 text-4xl font-extrabold">Meet the team section</h1>
+                        <p class="text-[12px] font-medium">
+                            Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                            <br>
+                            Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                    </div>
+                    <!-- Team Members -->
+                    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                        <!-- First member -->
+                        <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                            <figure><img src="./images/member1.png" alt="Member 1" /></figure>
+                            <div class="card-body justify-center">
+                                <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                                <hr>
+                                <p class="text-sm font-medium my-1">Apples</p>
+                                <p class="text-[#F85559] my-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                            </div>
+                        </div>
+                        <!-- Second member -->
+                        <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                            <figure><img src="./images/member2.png" alt="Member 2" /></figure>
+                            <div class="card-body justify-center">
+                                <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                                <hr>
+                                <p class="text-sm font-medium my-1">Orange</p>
+                                <p class="text-[#F85559] my-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                            </div>
+                        </div>
+                        <!-- Third member -->
+                        <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                            <figure><img src="./images/member3.png" alt="Member 3" /></figure>
+                            <div class="card-body justify-center">
+                                <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                                <hr>
+                                <p class="text-sm font-medium my-1">Red Dragon</p>
+                                <p class="text-[#F85559] my-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                            </div>
+                        </div>
+                        <!-- Member -->
+                        <div class="card p-8 border-[#1212121a] rounded-lg shadow-md">
+                            <figure><img src="./images/member2.png" alt="" /></figure>
+                            <div class="card-body justify-center">
+                                <h3 class="text-[17px] font-extrabold">12.90$ - 18.85$</h3>
+                                <hr>
+                                <p class="text-sm font-medium my-1">Banana</p>
+                                <p class="text-[#F85559] my-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <button class="bg-white border-none text-[#F85559] text-sm font-bold">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- Main ends here -->
 
     <!-- Footer starts here -->
